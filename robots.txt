@@ -1,0 +1,4 @@
+User-agent: *
+Crawl-delay: 1
+Host: https://skm-spb.ru/
+Sitemap: http://skm-spb.ru/sitemap.xlm

@@ -1,0 +1,86 @@
+.houses {
+    &__title {}
+}
+.komplect {
+    &__btn {
+        background: $red;
+        width: 100%;
+        height: 96px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+}
+.product {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    text-align: center;
+    height: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    &__slider {
+        height: 60%;
+    }
+    &__title {
+        font-size: 33px;
+        line-height: 40px;
+        margin-top: 30px;
+    }
+    &__coast {
+        font-size: 33px;
+        line-height: 40px;
+        font-weight: 300;
+        margin-top: 60px;
+        & span{
+            font-weight: 700;
+        }
+    }
+}
+.load-products{
+    background: $red;
+    height: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 40px;
+}
+.swiper-container {
+    position: relative;
+    height: 100%;
+}
+.swiper-wrapper {
+    height: 100%;
+}
+.swiper-slide {
+    & img{  
+        width: 100%;
+        max-height: 100%;
+    }
+}
+.arrow-button-prev {
+    position: absolute;
+    left: 10px;
+    top: 40%;
+    z-index: 11;
+}
+.arrow-button-next {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    z-index: 11;
+}
+@media(max-width:400px){
+    .product{
+        height: 350px;
+        &__title{
+            font-size: 24px;
+        }
+        &__coast{
+            font-size: 24px;
+            margin-top: 40px;
+        }
+    }
+}
